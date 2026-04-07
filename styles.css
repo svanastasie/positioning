@@ -1,6 +1,7 @@
 .logos {
     display: flex;
     gap: 50px;
+    margin-bottom: 30px;
 }
 
 .logo {
@@ -51,4 +52,37 @@
     height: 33px;
     background-color: #e80012;
     z-index: 3;
+}
+
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1000;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+.modal-content {
+    background-color: #fefefe;
+    padding: 20px;
+    margin: auto;
+    width: 640px;
+    border: 1px solid #888888;
+}
+
+.close-icon {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close-icon:hover, .close-icon:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
 }
