@@ -19,3 +19,36 @@
 .blue { background: #00a4ef; }
 .yellow { background: #ffb900; }
 
+.target {
+    position: relative;
+    display: block;
+}
+
+.target div {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 50%;
+}
+
+.circle1 {
+    width: 100px;
+    height: 100px;
+    background-color: #e80012;
+    z-index: 1;
+}
+
+.circle2 {
+    width: 66px;
+    height: 66px;
+    background-color: #ffffff;
+    z-index: 2;
+}
+
+.circle3 {
+    width: 33px;
+    height: 33px;
+    background-color: #e80012;
+    z-index: 3;
+}
