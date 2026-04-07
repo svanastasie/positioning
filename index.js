@@ -17,3 +17,18 @@ openButton.onclick = () => {
 closeButton.onclick = () => {
     modal.style.display = 'none';
 }
+
+const fill = document.querySelector('.layer-fill');
+const duration = 3000;
+const frames = 100;
+const step = duration / frames;
+let currentWidth = 0;
+
+const timer = setInterval(() => {
+    currentWidth++;
+    fill.style.width = currentWidth + '%';
+
+    if (currentWidth >= 100) {
+        clearInterval(timer);
+    }
+}, step);
