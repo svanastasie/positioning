@@ -82,7 +82,7 @@
     font-size: 28px;
     font-weight: bold;
     cursor: pointer;
-    color: #aaaaaa;
+    color: #888888;
 }
 
 .close-icon:hover, .close-icon:focus {
@@ -116,7 +116,7 @@
 }
 
 .layer-fill {
-    background: #ff0000;
+    background: #e80012;
     overflow: hidden;
     z-index: 1;
 }
